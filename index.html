@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    
+
+    <title>Recorder</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/recorder.css" rel="stylesheet">
+    
+    <!-- Custom fonts -->
+	<link href='http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'>
+	
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="ziggeo-recorder">
+    
+	<div class="container">
+		<div class="row">
+		
+			<div class="ziggeo-recorder-container start-screen">
+				<div class="video-unit">
+					<p class="center"><a href="#"><i class="fa fa-video-camera hero-img"></i></a></p>
+					<a href="#" class="btn-primary">Record your Video</a>
+					<p><a href="#"><i class="fa fa-upload"></i> Upload Video  &nbsp; </a><a href="#"> <i class="fa fa-star"></i> New? Start the tutorial</a></p>
+				</div>
+			</div>
+			
+			<div class="ziggeo-recorder-container tutorial">
+				<div class="video-unit">
+					<p>How to Record a Video</p>
+					<ul>
+						<li>Enable your camera from the <a href="assets/images/adobe-flash-settings.png"><strong>Adobe Flash Player Settings</strong></a>. Check <strong>Allow</strong> and click <strong>Close</strong>.</li>
+						<li>Next, check the sound. Say something until the <strong>Mic</strong> light turns green.</li>
+						<li>Click on <strong>Record</strong> to start recording. Click <strong>Stop</strong> once you’re done.</li>
+						<li><strong>Select a thumbnail</strong> to use as the display image for your video. Not happy? Click on Record to start over.</li>
+					</ul>
+				</div>
+			</div>
+			
+
+			<div class="ziggeo-recorder-container">
+				<video autoplay loop poster="assets/video/hero-video.png" class="video-unit">
+					<source src="assets/video/hero-video.mp4" type="video/mp4">
+					<source src="assets/video/hero-video.webm" type="video/webm">
+					<source src="assets/video/hero-video.ogv" type="video/ogg">
+				</video>
+ 				<div class="ziggeo-help"><a href="#"><i class="fa fa-fw">&#xf05a;</i>Help</a></div>
+ 				<div class="dashboard">
+					<p>
+						<a href="#" class="btn-link pull-left"><i class="fa fa-cog"></i></a> 
+						<a href="#" class="btn-link pull-left">Mic <i class="fa fa-circle off"></i><span class="help-text"><strong>Unable to detect sound.</strong> Speak up or switch your mic if the problem persists.</span></a> 
+						<a href="#" class="btn-default pull-right"><!-- <i class="fa fa-circle"></i> --> Record</a>
+					</p>
+ 				</div>
+			</div><!-- / ziggeo-recorder-container -->
+			
+			<div class="ziggeo-recorder-container">
+				<video autoplay loop poster="assets/video/hero-video.png" class="video-unit">
+					<source src="assets/video/hero-video.mp4" type="video/mp4">
+					<source src="assets/video/hero-video.webm" type="video/webm">
+					<source src="assets/video/hero-video.ogv" type="video/ogg">
+				</video>
+ 				<div class="ziggeo-help"><a href="#"><i class="fa fa-fw">&#xf05a;</i>Help</a></div>
+ 				<div class="dashboard">
+					<p>
+						<a href="#" class="btn-link pull-left disable"><i class="fa fa-cog"></i></a> 
+						<a href="#" class="btn-link pull-left">Mic <i class="fa fa-circle"></i><span class="help-text"><strong>Sound detected.</strong> Okay to record.</span></a> 
+						<a href="#" class="btn-default on pull-right"><!-- <i class="fa fa-circle"></i> --> Stop</a>
+					</p>
+ 				</div>
+			</div><!-- / ziggeo-recorder-container -->
+			
+						
+			<div class="ziggeo-recorder-container">
+				<div class="video-unit thumbnail-wrapper">
+					<h4>Pick a Thumbnail</h4> 
+					<a href="#" class="pic"><img src="assets/images/thumb-01.png" alt="thumbnail" /></a>
+					<a href="#" class="pic"><img src="assets/images/thumb-02.png" alt="thumbnail" /></a>
+					<a href="#" class="pic"><img src="assets/images/thumb-01.png" alt="thumbnail" /></a>
+					<p><a href="#" class="btn-outline pull-left">&larr; Record</a><a href="#" class="btn-default pull-right">Next</a></p>
+				</div>
+ 				<div class="ziggeo-help"><a href="#"><i class="fa fa-fw">&#xf05a;</i>Help</a></div>
+			</div><!-- / ziggeo-recorder-container -->
+		</div><!-- / row -->
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
