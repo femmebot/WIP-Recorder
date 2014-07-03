@@ -18,10 +18,13 @@
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link { text-decoration: none; margin: 10px 0 10px 10px; padding: 0 12px; line-height: 27px; height: 30px; color: #fff; border: 1px solid #ddd; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-link:hover { background-color: #333; border: 1px solid #999; }
-#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.disable { display: none; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.settings.disable, #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.mic.disable  { display: none; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.mic.active, #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.mic.active { background-color: #333; border: 1px solid #999; }
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link .help-text { position: relative; display: none; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-link:hover .help-text { font: 500 10px/12px Helvetica, Arial; color: #000; position: absolute; top: 64px; margin-left: -20px; max-width: 210px; display: block; padding: 6px; background-color: #fff; opacity: .8; z-index: 99999; }
+
+
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link i.fa-circle { font-size: 11px; color: #3f3; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link i.fa-circle.off { color: #f00; }
@@ -51,7 +54,7 @@
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper p { color: #aaa; font: 300 12px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper h4 { color: #aaa; font: 300 16px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
 
-/* Spinner Wrapper */
+/* Spinner Wrapper */ 
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.spinner-wrapper { background-color: #b4e0e3; text-align: center; }
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.spinner-wrapper h4 { font: 300 16px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; margin: 20px 0 0 0; }
 
