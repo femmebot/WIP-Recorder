@@ -70,7 +70,7 @@
 					<p>
 						<a href="#" class="btn-link pull-left"><i class="fa fa-cog"></i></a> 
 						<a href="#" class="btn-link pull-left">Mic <i class="fa fa-circle off"></i><span class="help-text"><strong>Unable to detect sound.</strong> Speak up or switch your mic if the problem persists.</span></a> 
-						<a href="#" class="btn-default pull-right"><!-- <i class="fa fa-circle"></i> --> Record</a>
+						<a href="#" class="btn-default pull-right">Record</a>
 					</p>
  				</div>
 			</div><!-- / ziggeo-recorder-container -->
@@ -85,8 +85,8 @@
  				<div class="dashboard">
 					<p>
 						<a href="#" class="btn-link pull-left disable"><i class="fa fa-cog"></i></a> 
-						<a href="#" class="btn-link pull-left">Mic <i class="fa fa-circle"></i><span class="help-text"><strong>Sound detected.</strong> Okay to record.</span></a> 
-						<a href="#" class="btn-default on pull-right"><!-- <i class="fa fa-circle"></i> --> Stop</a>
+						<a href="#" class="btn-link pull-left active">Mic <i class="fa fa-circle"></i><span class="help-text"><strong>Sound detected.</strong> Okay to record.</span></a> 
+						<a href="#" class="btn-default pull-right">Record</a>
 					</p>
  				</div>
 			</div><!-- / ziggeo-recorder-container -->
@@ -104,7 +104,22 @@
 						<a href="#" class="btn-link mic pull-left active">Mic <i class="fa fa-circle"></i><span class="help-text active"><strong>Sound detected.</strong> Okay to record.</span></a> 
 						<a href="#" class="btn-default on pull-right"><!-- <i class="fa fa-circle"></i> --> Stop</a>
 					</p>
- 				</div>
+					<div class="input-options">
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						    Built-in microphone
+						  </label>
+						</div>
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+						    Built-in input
+						  </label>
+						</div><!--/radio-->
+						<button type="button" class="btn btn-default btn-xs">Submit</button>
+					</div>
+				</div>
 			</div><!-- / ziggeo-recorder-container -->
 
 			<div class="ziggeo-recorder-container">
