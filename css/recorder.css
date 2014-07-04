@@ -18,7 +18,6 @@
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link { text-decoration: none; margin: 10px 0 10px 10px; padding: 0 12px; line-height: 27px; height: 30px; color: #fff; border: 1px solid #ddd; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-link:hover { background-color: #333; border: 1px solid #999; }
-#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.settings.disable  { display: none; }
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.settings.active, #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.mic.active { background-color: #333; border: 1px solid #999; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .input-options { background-color: rgba(255, 255, 255, 0.8); position: absolute; max-width: 160px; bottom: 50px; padding: 10px 12px; border-radius: 3px; }
@@ -30,6 +29,8 @@
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .input-options.settings:after { content: ""; position: absolute; top: 100%; left: 6px; border-top: 10px solid blue; border-top-color: rgba(255, 255, 255, 0.8); border-left: 10px solid transparent; border-right: 10px solid transparent; }
 /*#ziggeo-recorder .ziggeo-recorder-container .dashboard .input-options:after { content: ""; position: absolute; top: 100%; left: 2px; border-top: 10px solid blue; border-top-color: rgba(255, 255, 255, 0.8); border-left: 10px solid transparent; border-right: 10px solid transparent; }*/
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .input-options button.btn-default.btn-xs { margin: 4px 0; padding: 6px 20px; color: #000; background-color: #bbb; border-radius: 3px; font: 300 11px Arial, sans-serif; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .disable  { display: none; }
+
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link .help-text { position: relative; display: none; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-link:hover .help-text { font: 500 10px/12px Helvetica, Arial; color: #000; position: absolute; top: 64px; margin-left: -20px; max-width: 210px; display: block; padding: 6px; background-color: #fff; opacity: .8; z-index: 99999; }
