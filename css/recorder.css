@@ -4,7 +4,7 @@
 #ziggeo-recorder .ziggeo-recorder-container .video-unit { width: 300px; height: 170px; margin: 10px auto; overflow: hidden;  }
 
 #ziggeo-recorder .btn-default { color: #333; text-decoration: none; text-align: center; width: 80px; margin: 10px 10px 0 10px; background-color: #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
-#ziggeo-recorder .btn-outline { color: #666; text-decoration: none; text-align: center; padding: 0 16px; margin: 10px 10px 0 10px; background-color: transparent; border: 1px solid #666; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
+#ziggeo-recorder .btn-outline { color: #666; text-decoration: none; text-align: center; padding: 0 16px; margin: 10px 10px 0 10px; background-color: transparent; border: 1px solid #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 #ziggeo-recorder .btn-default.on { color: #fff; background-color: #c00; }
 #ziggeo-recorder a.btn-default:hover { color: #fff; background-color: #f00; }
 #ziggeo-recorder a.btn-outline:hover { border-color: #f00; }
