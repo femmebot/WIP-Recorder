@@ -101,19 +101,51 @@
  				<div class="dashboard">
 					<p>
 						<a href="#" class="btn-link settings pull-left"><i class="fa fa-cog"></i></a> 
-						<a href="#" class="btn-link mic pull-left active">Mic <i class="fa fa-circle"></i><span class="help-text active"><strong>Sound detected.</strong> Okay to record.</span></a> 
+						<a href="#" class="btn-link mic pull-left active">Mic <i class="fa fa-circle"></i><span class="help-text"><strong>Sound detected.</strong> Okay to record.</span></a> 
 						<a href="#" class="btn-default on pull-right"><!-- <i class="fa fa-circle"></i> --> Stop</a>
 					</p>
-					<div class="input-options">
+					<div class="input-options mic">
 						<div class="radio">
 						  <label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						    <input type="radio" name="optionsRadios" id="micRadios1" value="option1" checked>
 						    Built-in microphone
 						  </label>
 						</div>
 						<div class="radio">
 						  <label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+						    <input type="radio" name="optionsRadios" id="micRadios2" value="option2">
+						    Built-in input
+						  </label>
+						</div><!--/radio-->
+						<button type="button" class="btn btn-default btn-xs">Submit</button>
+					</div>
+				</div>
+			</div><!-- / ziggeo-recorder-container -->
+
+
+			<div class="ziggeo-recorder-container">
+				<video autoplay loop poster="assets/video/hero-video.png" class="video-unit">
+					<source src="assets/video/hero-video.mp4" type="video/mp4">
+					<source src="assets/video/hero-video.webm" type="video/webm">
+					<source src="assets/video/hero-video.ogv" type="video/ogg">
+				</video>
+ 				<div class="ziggeo-help"><a href="#"><i class="fa fa-fw">&#xf05a;</i>Help</a></div>
+ 				<div class="dashboard">
+					<p>
+						<a href="#" class="btn-link settings pull-left active"><i class="fa fa-cog"></i></a> 
+						<a href="#" class="btn-link mic pull-left">Mic <i class="fa fa-circle"></i><span class="help-text"><strong>Sound detected.</strong> Okay to record.</span></a> 
+						<a href="#" class="btn-default on pull-right"><!-- <i class="fa fa-circle"></i> --> Stop</a>
+					</p>
+					<div class="input-options settings">
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="settingsRadios" id="settingsRadios1" value="option1" checked>
+						    Built-in camera
+						  </label>
+						</div>
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="settingsRadios" id="settingssRadios2" value="option2">
 						    Built-in input
 						  </label>
 						</div><!--/radio-->
@@ -135,7 +167,7 @@
 
 			<div class="ziggeo-recorder-container">
 				<div class="video-unit spinner-wrapper">
-					<h4>Processing Video…</h4> 
+					<h4>Processing Video: 00%</h4> 
 					<div class="spinner">
 				      <div class="rect1"></div>
 				      <div class="rect2"></div>
