@@ -14,7 +14,7 @@
 #ziggeo-recorder .ziggeo-recorder-container .ziggeo-help a { font-size: 11px; color: #333; text-decoration: none; }
 #ziggeo-recorder .ziggeo-recorder-container .ziggeo-help i { font-size: 14px; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard { position: absolute; background: transparent url(../assets/images/bg-tile.png) 0 0 repeat-x; width: 300px; height: 60px; bottom: 50px; z-index: 9999; /* opacity: .9; */ }
-#ziggeo-recorder .ziggeo-recorder-container .dashboard p { font: 500 12px/30px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; margin-top: 10px; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard p { font: 500 12px/30px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; margin-top: 10px; min-height: 50px; }
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link { text-decoration: none; margin: 10px 0 10px 10px; padding: 0 12px; line-height: 27px; height: 30px; color: #fff; border: 1px solid #ddd; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-link:hover { background-color: #333; border: 1px solid #999; }
@@ -37,6 +37,9 @@
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link i.fa-circle { font-size: 11px; color: #3f3; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link i.fa-circle.off { color: #f00; }
+
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .countdown-timer { color: #fff; line-height: 48px; display: block; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .countdown-timer strong { font-size: 18px;}
 
 
 /* Start Screen */
