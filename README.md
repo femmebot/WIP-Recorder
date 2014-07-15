@@ -1,5 +1,3 @@
----
-html, css
----
 
+View on:
 http://femmebot.github.io/Recorder/
