@@ -46,7 +46,7 @@
 #ziggeo-recorder .ziggeo-recorder-container.start-screen { background-color: #b4e0e3; text-align: center; }
 #ziggeo-recorder .ziggeo-recorder-container.start-screen .hero-img { margin: 28px auto 0 auto; display: block; font-size: 48px; color: #fff; }
 #ziggeo-recorder .ziggeo-recorder-container.start-screen p { font: 500 12px/15px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
-#ziggeo-recorder .ziggeo-recorder-container.start-screen p a { color: #333; font-size: 11px; }
+#ziggeo-recorder .ziggeo-recorder-container.start-screen p a { color: #333; font-size: 11px; text-decoration: none; }
 #ziggeo-recorder .ziggeo-recorder-container.start-screen p a i { color: #2ab; }
 #ziggeo-recorder .ziggeo-recorder-container.start-screen .btn-primary { background-color: #ed4723; display: block; font: 300 16px/38px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; height: 40px; width: 160px; margin: 0 auto 30px auto; border-radius: 3px; }
 #ziggeo-recorder .ziggeo-recorder-container.start-screen .btn-primary:hover { text-decoration: none; background-color: #c00;}
