@@ -51,6 +51,7 @@
 #ziggeo-recorder .ziggeo-recorder-container.start-screen .btn-primary { background-color: #ed4723; display: block; font: 300 16px/38px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; height: 40px; width: 160px; margin: 0 auto 30px auto; border-radius: 3px; }
 #ziggeo-recorder .ziggeo-recorder-container.start-screen .btn-primary:hover { text-decoration: none; background-color: #c00;}
 
+
 /* Tutorial */
 #ziggeo-recorder .ziggeo-recorder-container.tutorial p { color #444; font: 11px/14px Arial, sans-serif; margin: 0 0 10px 0; }
 #ziggeo-recorder .ziggeo-recorder-container.tutorial strong { color: #000; }
@@ -83,6 +84,12 @@
 @-webkit-keyframes stretchdelay { 0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  20% { -webkit-transform: scaleY(1.0) }}}
 
 
-
+/* Playback */
+#ziggeo-recorder .ziggeo-recorder-container.playback { border: 1px solid #ccc; margin: 20px auto; padding: 20px 10px; width: 320px; height: auto; position: relative; }
+#ziggeo-recorder .ziggeo-recorder-container.playback .poster-frame { width: 300px; height: 170px; margin: 10px auto; background: url(../assets/video/video-test.jpg) center center no-repeat; background-size: contain; }
+#ziggeo-recorder .ziggeo-recorder-container.playback .dashboard { bottom: 45px; }
+#ziggeo-recorder .ziggeo-recorder-container.playback .duration { padding: 15px 8px 0 8px; color: #fff; }
+#ziggeo-recorder .ziggeo-recorder-container.playback .btn-link { margin: 0 0 0 10px; padding: 0 12px; line-height: 27px; height: 40px; width: 40px; -webkit-border-radius: 21px; -moz-border-radius: 21px; border-radius: 21px; }
+#ziggeo-recorder .ziggeo-recorder-container.playback .fa-play { font-size: 20px; padding-top: 9px;} 
 
 
