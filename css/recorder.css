@@ -41,6 +41,9 @@
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .countdown-timer { color: #fff; line-height: 48px; display: block; }
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .countdown-timer strong { font-size: 18px;}
 
+#ziggeo-recorder #lg-countdown.ziggeo-recorder-container .dashboard .countdown-timer { font: 30px/48px 'Helvetica Neue', Helvetica, Arial; padding: 0 12px; opacity: .5;}
+#ziggeo-recorder #lg-countdown.ziggeo-recorder-container .dashboard .countdown-timer.on { opacity: 1; } 
+
 
 /* Start Screen */
 #ziggeo-recorder .ziggeo-recorder-container.start-screen { background-color: #b4e0e3; text-align: center; }
