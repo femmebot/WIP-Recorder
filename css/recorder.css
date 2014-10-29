@@ -42,7 +42,7 @@
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .countdown-timer strong { font-size: 18px;}
 
 #ziggeo-recorder #lg-countdown.ziggeo-recorder-container .dashboard .countdown-timer { font: 24px/48px 'Helvetica Neue', Helvetica, Arial; padding: 0 12px; opacity: .5;}
-#ziggeo-recorder #lg-countdown.ziggeo-recorder-container .dashboard .countdown-timer.on { opacity: 1; } 
+#ziggeo-recorder #lg-countdown.ziggeo-recorder-container .dashboard .countdown-timer.on { opacity: 1; }
 
 #ziggeo-recorder .ziggeo-recorder-container .dashboard .face-position { background: transparent url(../assets/images/face-position.svg) center center no-repeat; background-size: 80%; width: 300px; height: 140px; position: absolute; bottom: 30px; left: 0; }
 
@@ -73,7 +73,7 @@
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper p { color: #aaa; font: 500 12px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper h4 { font: 300 16px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
 
-/* Spinner Wrapper */ 
+/* Spinner Wrapper */
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.spinner-wrapper { background-color: #b4e0e3; text-align: center; }
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.spinner-wrapper h4 { font: 300 16px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; margin: 20px 0 0 0; }
 
@@ -92,24 +92,24 @@
 /* Playback */
 #ziggeo-recorder .ziggeo-recorder-container.playback { border: 1px solid #ccc; margin: 20px auto; padding: 20px 10px; width: 320px; height: auto; position: relative; }
 #ziggeo-recorder .ziggeo-recorder-container.playback .poster-frame { width: 300px; height: 170px; margin: 10px auto; background: url(../assets/video/video-test.jpg) center center no-repeat; background-size: contain; }
-#ziggeo-recorder .ziggeo-recorder-container.playback .dashboard { bottom: 45px; } 
+#ziggeo-recorder .ziggeo-recorder-container.playback .dashboard { bottom: 45px; }
 #ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .playback-controls { font: 500 11px/30px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; margin-top: 10px; min-height: 50px; }
 #ziggeo-recorder .ziggeo-recorder-container.playback .duration { padding: 15px 8px 0 8px; color: #fff; }
 #ziggeo-recorder .ziggeo-recorder-container.playback .btn-link { margin: 0 0 0 10px; padding: 0 12px; line-height: 27px; height: 40px; width: 40px; -webkit-border-radius: 21px; -moz-border-radius: 21px; border-radius: 21px; }
 #ziggeo-recorder .ziggeo-recorder-container.playback  a.btn-link:hover { background-color: #000; }
-#ziggeo-recorder .ziggeo-recorder-container.playback .fa-play { font-size: 20px; padding-top: 9px;} 
+#ziggeo-recorder .ziggeo-recorder-container.playback .fa-play { font-size: 20px; padding-top: 9px;}
 #ziggeo-recorder .ziggeo-recorder-container.playback .fa-pause { font-size: 17px; padding-top: 9px;}
 #ziggeo-recorder .ziggeo-recorder-container.playback .video-unit {  margin: 10px auto 5px auto; }
-#ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .btn-player { margin: 15px 5px 0 0; text-decoration: none; padding: 0 6px 0 0; color: #fff; } 
+#ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .btn-player { margin: 15px 5px 0 0; text-decoration: none; padding: 0 6px 0 0; color: #fff; }
 #ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .scrub-bar-wrapper { position: relative; width: 80px; max-width: 140px; height: 2px; margin: 0 8px 0; padding: 32px 0 0 4px; border-bottom: 2px solid #f00; }
 #ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .scrub-bar-wrapper .time-elapsed { position: absolute; top: 6px; right: -14px; color: #fff; }
 
 
 /* Filter */
-#ziggeo-recorder .filter-wrapper { float: left; height: auto; min-height: 1%; display: block; width: 100%; padding: 0; margin: 0 auto; }
+#ziggeo-recorder .filter-wrapper { float: left; height: auto; min-height: 1%; display: block; width: 100%; padding: 0; margin: 12px auto 0 auto; }
 #ziggeo-recorder .filter-wrapper li { float: left; margin: 0; list-style-type: none; width: 25%; overflow: hidden; display: block; height: auto; }
 #ziggeo-recorder .filter-wrapper li a { float: left; border: 1px solid #b4e0e3; display: block; }
+#ziggeo-recorder .filter-wrapper li a .help-text { position: relative; display: none; }
 #ziggeo-recorder .filter-wrapper li a:hover {  border: 1px solid #c00; }
-#ziggeo-recorder .filter-wrapper li a img { float: left; overflow: hidden; height: 98%; width: 98%; }
-
-
+#ziggeo-recorder .filter-wrapper li a:hover .help-text { font: 500 10px/12px Arial; color: #000; position: absolute; top: 110px; padding: 0 4px; background-color: rgba(255, 255, 255, .8); display: block; z-index: 99999; }
+#ziggeo-recorder .filter-wrapper li a img { float: left; overflow: hidden; height: 99%; width: 99%; }
