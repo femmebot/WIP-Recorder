@@ -67,9 +67,9 @@
 
 /* Thumbnail Grid */
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper { background-color: #b4e0e3; padding: 0 10px; text-align: center; }
-#ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper .pic { border: 2px solid #b4e0e3; display: inline-block; margin: 0 -2px; padding: 0; }
+#ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper .pic { border: 1px solid #b4e0e3; display: inline-block; margin: 0 -1px 0 0; padding: 0; }
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper .pic img { border: none; width: 89px; height: 50px; }
-#ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper a.pic:hover { border: 2px solid #2ab; }
+#ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper a.pic:hover { border: 1px solid #c00; }
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper p { color: #aaa; font: 500 12px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
 #ziggeo-recorder .ziggeo-recorder-container .video-unit.thumbnail-wrapper h4 { font: 300 16px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
 
@@ -103,5 +103,13 @@
 #ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .btn-player { margin: 15px 5px 0 0; text-decoration: none; padding: 0 6px 0 0; color: #fff; } 
 #ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .scrub-bar-wrapper { position: relative; width: 80px; max-width: 140px; height: 2px; margin: 0 8px 0; padding: 32px 0 0 4px; border-bottom: 2px solid #f00; }
 #ziggeo-recorder .ziggeo-recorder-container.playback .dashboard .scrub-bar-wrapper .time-elapsed { position: absolute; top: 6px; right: -14px; color: #fff; }
+
+
+/* Filter */
+#ziggeo-recorder .filter-wrapper { float: left; height: auto; min-height: 1%; display: block; width: 100%; padding: 0; margin: 0 auto; }
+#ziggeo-recorder .filter-wrapper li { float: left; margin: 0; list-style-type: none; width: 25%; overflow: hidden; display: block; height: auto; }
+#ziggeo-recorder .filter-wrapper li a { float: left; border: 1px solid #b4e0e3; display: block; }
+#ziggeo-recorder .filter-wrapper li a:hover {  border: 1px solid #c00; }
+#ziggeo-recorder .filter-wrapper li a img { float: left; overflow: hidden; height: 98%; width: 98%; }
 
 
